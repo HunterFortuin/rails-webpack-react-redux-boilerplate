@@ -55,3 +55,14 @@ $ heroku config:set NPM_CONFIG_PRODUCTION=false
 ```
 
 Upon deploying your application, Heroku will execute the `postinstall` script in the `package.json`. This script runs Webpack for you once all your NPM modules have been installed.
+
+Now it's as easy as deploy!
+
+```
+$ git push heroku master
+```
+And of course creating your DB.
+
+```
+$ heroku run rake db:migrate
+```
