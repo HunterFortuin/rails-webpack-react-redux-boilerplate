@@ -31,6 +31,10 @@ $ gem install foreman
 $ foreman start -f Procfile-dev
 ```
 
+## Utilizing the Asset Pipeline For Part Of Your App
+
+The beauty of keeping all of this under one roof is that you can still utilize the asset pipeline for a section of your app, say an admin panel that will look/behave drastically different than the rest of your application. For a sample implementation checkout the [admin-panel-example](https://github.com/HunterFortuin/rails-webpack-react-redux-boilerplate/tree/admin-panel-example) branch.
+
 # Deployment to Heroku
 First you'll need to create an empty Heroku app.
 
