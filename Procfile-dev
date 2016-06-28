@@ -1,0 +1,2 @@
+web: rails s
+webpack: webpack --config webpack.config.dev.js --watch --colors
