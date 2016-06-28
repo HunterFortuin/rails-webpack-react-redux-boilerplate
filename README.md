@@ -8,7 +8,7 @@ A boilerplate for creating React and Redux applications with a Rails backend.
 
 ```
 $ git clone git@github.com:HunterFortuin/rails-webpack-react-redux-boilerplate.git
-$ cd webpack-rails
+$ cd rails-webpack-react-redux-boilerplate
 ```
 
 You'll need to pull in all the Node and Rails dependencies through NPM and Bundler.
